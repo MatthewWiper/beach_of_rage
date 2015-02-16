@@ -11,7 +11,9 @@ public class InitGame{
   public void start(){
     // initalize game -> GUI
     //                   Player character
-    // After intial character creation -> intiialize map 
+    // After intial character creation -> intiialize map
+    //                                            - enemy locations
+    //                                            - initialize drops here or have random chance on move? research.
 
 
   }
