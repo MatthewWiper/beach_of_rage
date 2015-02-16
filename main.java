@@ -1,10 +1,10 @@
 package assignment_3;
 
 import javax.swing.*;
-public class start{
+public class InitGame{
   Player player = new Player();
   public static void main(String[] args){
-    start driver = new start();
+    InitGame driver = new InitGame();
     driver.start();
   }
 
