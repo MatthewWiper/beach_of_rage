@@ -7,7 +7,7 @@ import javax.swing.*;
 public class gui extends JFrame{
 
   JPanel pane = new JPanel();
-  gui(){
+  public gui(){
     super("test frame"); setBounds(100,100,300,100);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     Container con = this.getContentPane();
