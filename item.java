@@ -35,40 +35,40 @@ public void initWeapons(){
   "weap15" = weaponSheet[3][3];
 }
 public void initHead(){
-  "head1" = headSheet[0][0];
+  "head0" = headSheet[0][0];
   "head1" = headSheet[1][0];
-  "head1" = headSheet[2][0];
-  "head1" = headSheet[3][0];
-  "head1" = headSheet[4][0];
-  "head1" = headSheet[0][1];
-  "head1" = headSheet[1][1];
-  "head1" = headSheet[2][1];
-  "head1" = headSheet[3][1];
-  "head1" = headSheet[4][1];
+  "head2" = headSheet[2][0];
+  "head3" = headSheet[3][0];
+  "head4" = headSheet[4][0];
+  "head5" = headSheet[0][1];
+  "head6" = headSheet[1][1];
+  "head7" = headSheet[2][1];
+  "head8" = headSheet[3][1];
+  "head9" = headSheet[4][1];
 }
 public void initChest(){
-  "chest1" = chestSheet[0][0];
+  "chest0" = chestSheet[0][0];
   "chest1" = chestSheet[1][0];
-  "chest1" = chestSheet[2][0];
-  "chest1" = chestSheet[3][0];
-  "chest1" = chestSheet[4][0];
-  "chest1" = chestSheet[0][1];
-  "chest1" = chestSheet[1][1];
-  "chest1" = chestSheet[2][1];
-  "chest1" = chestSheet[3][1];
-  "chest1" = chestSheet[4][1];
+  "chest2" = chestSheet[2][0];
+  "chest3" = chestSheet[3][0];
+  "chest4" = chestSheet[4][0];
+  "chest5" = chestSheet[0][1];
+  "chest6" = chestSheet[1][1];
+  "chest7" = chestSheet[2][1];
+  "chest8" = chestSheet[3][1];
+  "chest9" = chestSheet[4][1];
 }
 public void initLegs(){
-  "leg1" = legSheet[0][0];
+  "leg0" = legSheet[0][0];
   "leg1" = legSheet[1][0];
-  "leg1" = legSheet[2][0];
-  "leg1" = legSheet[3][0];
-  "leg1" = legSheet[4][0];
-  "leg1" = legSheet[0][1];
-  "leg1" = legSheet[1][1];
-  "leg1" = legSheet[2][1];
-  "leg1" = legSheet[3][1];
-  "leg1" = legSheet[4][1];
+  "leg2" = legSheet[2][0];
+  "leg3" = legSheet[3][0];
+  "leg4" = legSheet[4][0];
+  "leg5" = legSheet[0][1];
+  "leg6" = legSheet[1][1];
+  "leg7" = legSheet[2][1];
+  "leg8" = legSheet[3][1];
+  "leg9" = legSheet[4][1];
 }
 public String randWeapon(){
   int x = 0;
@@ -116,7 +116,7 @@ public void weapData(){
   // ititalize weapon stats/data/name/price
   // [name][0 - damage][1 - price]
   String[16][2] weaponStats = new int [16][2];
-  
+
    = weaponStats[0][0]
    = weaponStats[0][1]
    = weaponStats[1][0]
