@@ -34,7 +34,6 @@ public void initWeapons(){
   "weap14" = weaponSheet[2][3];
   "weap15" = weaponSheet[3][3];
 }
-
 public void initHead(){
   "head1" = headSheet[0][0];
   "head1" = headSheet[1][0];
@@ -47,7 +46,6 @@ public void initHead(){
   "head1" = headSheet[3][1];
   "head1" = headSheet[4][1];
 }
-
 public void initChest(){
   "chest1" = chestSheet[0][0];
   "chest1" = chestSheet[1][0];
@@ -60,7 +58,6 @@ public void initChest(){
   "chest1" = chestSheet[3][1];
   "chest1" = chestSheet[4][1];
 }
-
 public void initLegs(){
   "leg1" = legSheet[0][0];
   "leg1" = legSheet[1][0];
@@ -114,5 +111,28 @@ public String randChest(){
 
   return chestSheet[x][y];
 }
+public void weapData(){
 
+  // ititalize weapon stats/data/name/price
+  // [name][0 - damage][1 - price]
+  String[16][2] weaponStats = new int [16][2];
+  
+   = weaponStats[0][0]
+   = weaponStats[0][1]
+   = weaponStats[1][0]
+   = weaponStats[1][1]
+   = weaponStats[2][0]
+   = weaponStats[2][1]
+   = weaponStats[3][0]
+   = weaponStats[3][1]
+   = weaponStats[4][0]
+   = weaponStats[4][1]
+   = weaponStats[5][0]
+   = weaponStats[5][1]
+   = weaponStats[6][0]
+   = weaponStats[6][1]
+   = weaponStats[7][0]
+   = weaponStats[7][1]
+
+}
 }
