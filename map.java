@@ -16,7 +16,7 @@ public class map{
 
   public void movement(String move){
 
-      switch (moveInput){
+      switch (move){
         case "north":
           y++;
         case "east":
