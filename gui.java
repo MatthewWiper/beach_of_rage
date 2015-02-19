@@ -7,11 +7,17 @@ import javax.swing.*;
 public class gui extends JFrame{
 
   JPanel pane = new JPanel();
+  testLabel = new JLabel("test");
   public gui(){
-    super("test frame"); setBounds(100,100,300,100);
+    super("test frame");
+	
+	setSize(300,200);
+	setLocation(10,200);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     Container con = this.getContentPane();
-    con.add(pane);
+    con.setLayout(null);
+	con.add(pane);
+	con.add(testLabel);
 
     setVisible(true);
   }
