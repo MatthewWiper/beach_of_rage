@@ -111,28 +111,230 @@ public String randChest(){
 
   return chestSheet[x][y];
 }
-public void weapData(){
+public int[] weapData(String weapName){
+  int weapStats[] = new int[3];
+  switch(weapName){
+    case "weap0":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap1":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap2":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap3":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap4":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap5":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap6":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap7":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap8":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;
+    case "weap9":
+      weapStats[0] = 0;
+      weapStats[1] = 0;
+      weapStats[2] = 0;
+      weapStats[3] = 0;             
+    }
+   return weapStats;
+}
 
-  // ititalize weapon stats/data/name/price
-  // [name][0 - damage][1 - price]
-  String[16][2] weaponStats = new int [16][2];
+public int[] headStats(String headName){
+  int headStats[] = new int[3];
+  switch(headName){
+    case "head0":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head1":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head2":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head3":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head4":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head5":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head6":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head7":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head8":
+      headStats[0] = 0;
+      headStats[1] = 0;
+      headStats[2] = 0;
+      headStats[3] = 0;
+    case "head9":
+      headStats[0] = 0;
+      headStats[2] = 0;
+      headStats[1] = 0;
+      headStats[3] = 0;
+  }
+  return headStats;
+}
 
-   = weaponStats[0][0]
-   = weaponStats[0][1]
-   = weaponStats[1][0]
-   = weaponStats[1][1]
-   = weaponStats[2][0]
-   = weaponStats[2][1]
-   = weaponStats[3][0]
-   = weaponStats[3][1]
-   = weaponStats[4][0]
-   = weaponStats[4][1]
-   = weaponStats[5][0]
-   = weaponStats[5][1]
-   = weaponStats[6][0]
-   = weaponStats[6][1]
-   = weaponStats[7][0]
-   = weaponStats[7][1]
-
+public int[] chestStats(name chestName){
+  int chestStats[] = new int[3];
+  switch(chestName){
+    case "chest0":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest1":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest2":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest3":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest4":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest5":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest6":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest7":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest8":
+      chestStats[0] = 0;
+      chestStats[1] = 0;
+      chestStats[2] = 0;
+      chestStats[3] = 0;
+    case "chest9":
+      chestStats[0] = 0;
+      chestStats[2] = 0;
+      chestStats[1] = 0;
+      chestStats[3] = 0;
+  }
+  return chestStats;
+}
+public int[] legStats(name legName){
+  int legStats[] = new int[3];
+  switch(legName){
+    case "leg0":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "leg1":
+      legStats[0] = 0;
+      legtStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "leg2":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "leg3":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "chest4":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "chest5":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "chest6":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "chest7":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "leg8":
+      legStats[0] = 0;
+      legStats[1] = 0;
+      legStats[2] = 0;
+      legStats[3] = 0;
+    case "leg9":
+      legStats[0] = 0;
+      legStats[2] = 0;
+      legStats[1] = 0;
+      legStats[3] = 0;
+  }
+  return legStats;
 }
 }
