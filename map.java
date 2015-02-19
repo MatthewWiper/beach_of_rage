@@ -13,7 +13,17 @@ public class map{
   }
 
   // logic for movement
+public void getMovement(){
+  String move = "";
 
+  // this will read input from gui class. validate -> call movment method
+
+  while(move != "north" || move!= "south" || move != "west" || move != "east"){
+    // send prompt to dialog area prompting player to enter a valid movement
+  }
+
+  movement(move);
+}
   public void movement(String move){
 
       switch (move){
