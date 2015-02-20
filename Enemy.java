@@ -10,23 +10,23 @@ public abstract class enemy{
 	private int armour = 0;
 	private double evasion = 0;
 	
-	public void setHP(int hp){
+	protected void setHP(int hp){
 		this.hp = hp;
 	}
-	public int getHP(){
+	protected int getHP(){
 		return hp;
 	}
-	public void setArmour(int armour){
+	protected void setArmour(int armour){
 		this.hp = hp;
 	}
-	public int getArmour(){
+	protected int getArmour(){
 		return hp;
 	}
 
-	public void setEvasion(int evasion){
+	protected void setEvasion(int evasion){
 		this.hp = hp;
 	}
-	public int getEvasion(){
+	protected int getEvasion(){
 		return evasion;
 	}
 	public abstract int randHP(int seed);
